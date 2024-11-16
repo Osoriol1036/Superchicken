@@ -96,8 +96,13 @@ footer .footer1{
     border: 5px solid rgb(0, 0, 0);
     border-radius: 20px;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
+
+.footer2{
+    margin: 3%;
+}
+
  
 @media (max-width: 768px) { .banner h1 { font-size: 2rem; } .banner p { font-size: 1rem; } } 
 @media (max-width: 480px) { .banner h1 { font-size: 1.5rem; } .banner p { font-size: 0.875rem;}}
