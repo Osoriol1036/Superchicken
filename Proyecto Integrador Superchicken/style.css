@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 18px;
+    /* background-color: rgb(84, 100, 9); */
+
+}
+
+body{
+    background-image: url(images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+header{
+    background-color: rgb(26, 29, 238);
+    background-image: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px 0;
+    background-image: url(images/PARRILLA.jpg);
+    border-radius: 20px;
+}
+
+.logo{
+    padding: 15px;
+}
+
+.logo img{
+    width: 70%;
+    border-radius: 30%;
+
+}
+
+.titulo{
+    color: #fff;
+    justify-content: center;
+    margin-right: 130px;
+}
+
+
+nav{
+    background-color: rgba(190, 97, 10, 0.719);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav a{
+    background-color: rgb(53, 48, 65);
+    color: #fff;
+    padding: 7px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: blue;
+}
+
+main{
+    /* background-color: rgb(59, 87, 27); */
+    width: 100%;
+    margin: auto;
+   
+}
+
+.formulario{
+    width: 50%;
+    margin: 40px auto;
+    box-shadow: 3px 3px 3px 3px;
+    background-color: rgba(186, 191, 197, 0.493);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+footer .footer1{
+    background-color: rgb(231, 225, 221);
+    height: 120px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer2{
+    margin: 3%;
+}
+
+ 
+@media (max-width: 768px) { .banner h1 { font-size: 2rem; } .banner p { font-size: 1rem; } } 
+@media (max-width: 480px) { .banner h1 { font-size: 1.5rem; } .banner p { font-size: 0.875rem;}}
